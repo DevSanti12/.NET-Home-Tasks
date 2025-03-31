@@ -1,0 +1,15 @@
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\Task2\bin\Debug\Task2.exe.config
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\Task2\bin\Debug\Task2.exe
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\Task2\bin\Debug\Task2.pdb
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\Task2\obj\Debug\Task2.csproj.AssemblyReference.cache
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\Task2\obj\Debug\Task2.Properties.Resources.resources
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\Task2\obj\Debug\Task2.csproj.GenerateResource.cache
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\Task2\obj\Debug\Task2.csproj.CoreCompileInputs.cache
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\Task2\obj\Debug\Task2.exe
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\Task2\obj\Debug\Task2.pdb
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\Task2\obj\Debug\Task2.Form1.resources
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\Task2\obj\Debug\Task2.csproj.Up2Date
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\Task2\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\Task2\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\Task2\bin\Debug\MyConcatenateLib.dll
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\Task2\bin\Debug\MyConcatenateLib.pdb

@@ -1,0 +1,10 @@
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\MyConcatenateLib\bin\Debug\netstandard2.0\MyConcatenateLib.deps.json
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\MyConcatenateLib\bin\Debug\netstandard2.0\MyConcatenateLib.dll
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\MyConcatenateLib\bin\Debug\netstandard2.0\MyConcatenateLib.pdb
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\MyConcatenateLib\obj\Debug\netstandard2.0\MyConcatenateLib.csproj.AssemblyReference.cache
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\MyConcatenateLib\obj\Debug\netstandard2.0\MyConcatenateLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\MyConcatenateLib\obj\Debug\netstandard2.0\MyConcatenateLib.AssemblyInfoInputs.cache
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\MyConcatenateLib\obj\Debug\netstandard2.0\MyConcatenateLib.AssemblyInfo.cs
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\MyConcatenateLib\obj\Debug\netstandard2.0\MyConcatenateLib.csproj.CoreCompileInputs.cache
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\MyConcatenateLib\obj\Debug\netstandard2.0\MyConcatenateLib.dll
+C:\Users\santiago_leyva\Documents\NET_MENTORING\SPRINT 1\MyConcatenateLib\obj\Debug\netstandard2.0\MyConcatenateLib.pdb

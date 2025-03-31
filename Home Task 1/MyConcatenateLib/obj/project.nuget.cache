@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yx0NI36s8tY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\santiago_leyva\\Documents\\NET_MENTORING\\SPRINT 1\\MyConcatenateLib\\MyConcatenateLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\santiago_leyva\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\santiago_leyva\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
