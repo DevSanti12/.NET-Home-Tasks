@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyConcatenateLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7fd59f8624c5866cecffca9c18da4989b268a43")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyConcatenateLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyConcatenateLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

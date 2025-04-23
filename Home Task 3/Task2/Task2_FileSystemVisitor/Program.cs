@@ -26,6 +26,7 @@ public class Program
             Console.WriteLine("What extension of the file to search for? (txt ,pdf, jpg) : ");
             string extension = Console.ReadLine();
             extension = extension.StartsWith(".") ? extension.Substring(1) : extension;
+
             var visitorWithFileFilter = new FileSystemVisitor(beginningPath, path => path.EndsWith($".{extension}"));
             SubcribeToEvents.Subscribe(visitorWithFileFilter);
             Console.WriteLine("All folders and files with file filter: ");
@@ -48,7 +49,6 @@ public class Program
             SubcribeToEvents.Subscribe(visitorWithFolderFilter);
             Console.WriteLine("All folders and files with file filter: ");
 
-            // Create a list to store the resulting files
             var filteredFolders = new List<string>();
             foreach (var folder in visitorWithFolderFilter.Traverse())
             {

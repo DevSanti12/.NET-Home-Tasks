@@ -1,32 +1,15 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\santiago_leyva\\Documents\\NET_MENTORING\\SPRINT 1\\Task2\\",
+  "WorkspaceRootPath": "C:\\Users\\santiago_leyva\\Documents\\GitHub\\.NET-Home-Tasks\\Home Task 1\\Task2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2327D365-A75E-455A-B810-6B09801C101B}|Task2.csproj|C:\\Users\\santiago_leyva\\Documents\\NET_MENTORING\\SPRINT 1\\Task2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2327D365-A75E-455A-B810-6B09801C101B}|Task2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\santiago_leyva\\Documents\\GitHub\\.NET-Home-Tasks\\Home Task 3\\Task2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2327D365-A75E-455A-B810-6B09801C101B}|Task2.csproj|C:\\Users\\santiago_leyva\\Documents\\NET_MENTORING\\SPRINT 1\\Task2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2327D365-A75E-455A-B810-6B09801C101B}|Task2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\santiago_leyva\\Documents\\GitHub\\.NET-Home-Tasks\\Home Task 3\\Task2\\FileSystemVisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2327D365-A75E-455A-B810-6B09801C101B}|Task2.csproj|c:\\users\\santiago_leyva\\documents\\net_mentoring\\sprint 1\\task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2327D365-A75E-455A-B810-6B09801C101B}|Task2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Task2||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2327D365-A75E-455A-B810-6B09801C101B}|Task2.csproj|c:\\users\\santiago_leyva\\documents\\net_mentoring\\sprint 1\\task2\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2327D365-A75E-455A-B810-6B09801C101B}|Task2.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2327D365-A75E-455A-B810-6B09801C101B}|Task2.csproj|C:\\Users\\santiago_leyva\\Documents\\NET_MENTORING\\SPRINT 1\\Task2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2327D365-A75E-455A-B810-6B09801C101B}|Task2.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2327D365-A75E-455A-B810-6B09801C101B}|Task2.csproj|c:\\users\\santiago_leyva\\documents\\net_mentoring\\sprint 1\\task2\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\santiago_leyva\\Documents\\GitHub\\.NET-Home-Tasks\\Home Task 3\\Task2\\Helpers\\FileSystemEventArgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,8 +19,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa36e8eb-a02a-54d8-906e-d5577d1893a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -59,83 +66,42 @@
               "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\santiago_leyva\\Documents\\GitHub\\.NET-Home-Tasks\\Home Task 3\\Task2\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\Home Task 3\\Task2\\Program.cs",
+              "ToolTip": "C:\\Users\\santiago_leyva\\Documents\\GitHub\\.NET-Home-Tasks\\Home Task 3\\Task2\\Program.cs",
+              "RelativeToolTip": "..\\..\\Home Task 3\\Task2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T13:55:51.434Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\santiago_leyva\\Documents\\NET_MENTORING\\SPRINT 1\\Task2\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\santiago_leyva\\Documents\\NET_MENTORING\\SPRINT 1\\Task2\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Title": "FileSystemEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\santiago_leyva\\Documents\\GitHub\\.NET-Home-Tasks\\Home Task 3\\Task2\\Helpers\\FileSystemEventArgs.cs",
+              "RelativeDocumentMoniker": "..\\..\\Home Task 3\\Task2\\Helpers\\FileSystemEventArgs.cs",
+              "ToolTip": "C:\\Users\\santiago_leyva\\Documents\\GitHub\\.NET-Home-Tasks\\Home Task 3\\Task2\\Helpers\\FileSystemEventArgs.cs",
+              "RelativeToolTip": "..\\..\\Home Task 3\\Task2\\Helpers\\FileSystemEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T21:48:39.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Task2",
-              "DocumentMoniker": "C:\\Users\\santiago_leyva\\Documents\\NET_MENTORING\\SPRINT 1\\Task2\\Task2.csproj",
-              "RelativeDocumentMoniker": "Task2.csproj",
-              "ToolTip": "C:\\Users\\santiago_leyva\\Documents\\NET_MENTORING\\SPRINT 1\\Task2\\Task2.csproj",
-              "RelativeToolTip": "Task2.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-30T04:20:34.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\santiago_leyva\\Documents\\NET_MENTORING\\SPRINT 1\\Task2\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\santiago_leyva\\Documents\\NET_MENTORING\\SPRINT 1\\Task2\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T04:20:13.656Z",
+              "WhenOpened": "2025-04-21T14:03:09.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\santiago_leyva\\Documents\\NET_MENTORING\\SPRINT 1\\Task2\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\santiago_leyva\\Documents\\NET_MENTORING\\SPRINT 1\\Task2\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "Title": "FileSystemVisitor.cs",
+              "DocumentMoniker": "C:\\Users\\santiago_leyva\\Documents\\GitHub\\.NET-Home-Tasks\\Home Task 3\\Task2\\FileSystemVisitor.cs",
+              "RelativeDocumentMoniker": "..\\..\\Home Task 3\\Task2\\FileSystemVisitor.cs",
+              "ToolTip": "C:\\Users\\santiago_leyva\\Documents\\GitHub\\.NET-Home-Tasks\\Home Task 3\\Task2\\FileSystemVisitor.cs",
+              "RelativeToolTip": "..\\..\\Home Task 3\\Task2\\FileSystemVisitor.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAuwJcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T21:48:33.974Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\santiago_leyva\\Documents\\NET_MENTORING\\SPRINT 1\\Task2\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\santiago_leyva\\Documents\\NET_MENTORING\\SPRINT 1\\Task2\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAewB0AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T21:55:46.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\santiago_leyva\\Documents\\NET_MENTORING\\SPRINT 1\\Task2\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\santiago_leyva\\Documents\\NET_MENTORING\\SPRINT 1\\Task2\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAYwEkAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T21:50:06.459Z",
+              "WhenOpened": "2025-04-21T13:46:14.792Z",
               "EditorCaption": ""
             }
           ]
