@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Task2_FileSystemVisitor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7fd59f8624c5866cecffca9c18da4989b268a43")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fce7051394a9f7d2075963079c324407419fc50c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Task2_FileSystemVisitor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Task2_FileSystemVisitor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

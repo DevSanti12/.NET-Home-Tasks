@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\santiago_leyva\\Documents\\GitHub\\.NET-Home-Tasks\\Home Task 3\\Task2\\Task2_FileSystemVisitor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DB1E3C40-B5AE-4A28-A460-0F84E4CEB565}|Task2_FileSystemVisitor.csproj|c:\\users\\santiago_leyva\\documents\\github\\.net-home-tasks\\home task 3\\task2\\task2_filesystemvisitor\\filesystemvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB1E3C40-B5AE-4A28-A460-0F84E4CEB565}|Task2_FileSystemVisitor.csproj|solutionrelative:filesystemvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB1E3C40-B5AE-4A28-A460-0F84E4CEB565}|Task2_FileSystemVisitor.csproj|c:\\users\\santiago_leyva\\documents\\github\\.net-home-tasks\\home task 3\\task2\\task2_filesystemvisitor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB1E3C40-B5AE-4A28-A460-0F84E4CEB565}|Task2_FileSystemVisitor.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DB1E3C40-B5AE-4A28-A460-0F84E4CEB565}|Task2_FileSystemVisitor.csproj|c:\\users\\santiago_leyva\\documents\\github\\.net-home-tasks\\home task 3\\task2\\task2_filesystemvisitor\\helpers\\filesystemvisitor.invokers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB1E3C40-B5AE-4A28-A460-0F84E4CEB565}|Task2_FileSystemVisitor.csproj|solutionrelative:helpers\\filesystemvisitor.invokers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB1E3C40-B5AE-4A28-A460-0F84E4CEB565}|Task2_FileSystemVisitor.csproj|c:\\users\\santiago_leyva\\documents\\github\\.net-home-tasks\\home task 3\\task2\\task2_filesystemvisitor\\filesystemvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB1E3C40-B5AE-4A28-A460-0F84E4CEB565}|Task2_FileSystemVisitor.csproj|solutionrelative:filesystemvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB1E3C40-B5AE-4A28-A460-0F84E4CEB565}|Task2_FileSystemVisitor.csproj|c:\\users\\santiago_leyva\\documents\\github\\.net-home-tasks\\home task 3\\task2\\task2_filesystemvisitor\\helpers\\filesystemeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 203,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,7 +65,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SubcribeToEvents.cs",
               "DocumentMoniker": "C:\\Users\\santiago_leyva\\Documents\\GitHub\\.NET-Home-Tasks\\Home Task 3\\Task2\\Task2_FileSystemVisitor\\Helpers\\SubcribeToEvents.cs",
               "RelativeDocumentMoniker": "Helpers\\SubcribeToEvents.cs",
@@ -77,13 +77,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\santiago_leyva\\Documents\\GitHub\\.NET-Home-Tasks\\Home Task 3\\Task2\\Task2_FileSystemVisitor\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\santiago_leyva\\Documents\\GitHub\\.NET-Home-Tasks\\Home Task 3\\Task2\\Task2_FileSystemVisitor\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAYwD4AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T00:56:04.229Z",
               "EditorCaption": ""
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "FileSystemVisitor.cs",
               "DocumentMoniker": "C:\\Users\\santiago_leyva\\Documents\\GitHub\\.NET-Home-Tasks\\Home Task 3\\Task2\\Task2_FileSystemVisitor\\FileSystemVisitor.cs",
               "RelativeDocumentMoniker": "FileSystemVisitor.cs",
@@ -110,11 +110,12 @@
               "RelativeToolTip": "FileSystemVisitor.cs",
               "ViewState": "AgIAAIUAAAAAAAAAAAAkwJUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T00:57:16.039Z"
+              "WhenOpened": "2025-04-23T00:57:16.039Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FileSystemVisitor.Invokers.cs",
               "DocumentMoniker": "C:\\Users\\santiago_leyva\\Documents\\GitHub\\.NET-Home-Tasks\\Home Task 3\\Task2\\Task2_FileSystemVisitor\\Helpers\\FileSystemVisitor.Invokers.cs",
               "RelativeDocumentMoniker": "Helpers\\FileSystemVisitor.Invokers.cs",
