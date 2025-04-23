@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.IO.Abstractions;
 namespace Task1_FileSystemVisitorApp;
 
 public class Program
@@ -8,6 +8,8 @@ public class Program
     {
         Console.WriteLine("** Welcome to the File System Visitor Program! (Task1) ** \n");
         Console.WriteLine("Enter the path of the starting folder: ");
+
+        IFileSystem fileSystem = new FileSystem();
 
         var beginningPath = Console.ReadLine();
         while (!RegexContainer.ValidatePathFormat(beginningPath))
@@ -24,7 +26,7 @@ public class Program
             Console.WriteLine("What extension of the file to search for? (txt ,pdf, jpg) : ");
             string extension = Console.ReadLine();
             extension = extension.StartsWith(".") ? extension.Substring(1) : extension;
-            var visitorWithFileFilter = new FileSystemVisitor(beginningPath, path => path.EndsWith($".{extension}"));
+            var visitorWithFileFilter = new FileSystemVisitor(beginningPath, fileSystem, path => path.EndsWith($".{extension}"));
             Console.WriteLine("All files with filter: ");
             foreach (var file in visitorWithFileFilter.Traverse())
             {
@@ -35,7 +37,7 @@ public class Program
         {
             Console.WriteLine("What name of the folder to search for: ");
             string folderName = Console.ReadLine();
-            var visitorWithFolderFilter = new FileSystemVisitor(beginningPath, folder => folder.EndsWith(folderName));
+            var visitorWithFolderFilter = new FileSystemVisitor(beginningPath, fileSystem, folder => folder.EndsWith(folderName));
             Console.WriteLine("All folders with filter: ");
             foreach (var folder in visitorWithFolderFilter.Traverse())
             {
@@ -44,7 +46,7 @@ public class Program
         }
         else
         {
-            var visitor = new FileSystemVisitor(beginningPath);
+            var visitor = new FileSystemVisitor(beginningPath, fileSystem);
             Console.WriteLine("All folders and files: ");
             foreach (var folder in visitor.Traverse())
             {
