@@ -1,0 +1,15 @@
+C:\Users\santiago_leyva\Documents\GitHub\.NET-Home-Tasks\Home Task 3\Task1\Task1_FileSystemVisitor\bin\Debug\net8.0\Task1_FileSystemVisitor.exe
+C:\Users\santiago_leyva\Documents\GitHub\.NET-Home-Tasks\Home Task 3\Task1\Task1_FileSystemVisitor\bin\Debug\net8.0\Task1_FileSystemVisitor.deps.json
+C:\Users\santiago_leyva\Documents\GitHub\.NET-Home-Tasks\Home Task 3\Task1\Task1_FileSystemVisitor\bin\Debug\net8.0\Task1_FileSystemVisitor.runtimeconfig.json
+C:\Users\santiago_leyva\Documents\GitHub\.NET-Home-Tasks\Home Task 3\Task1\Task1_FileSystemVisitor\bin\Debug\net8.0\Task1_FileSystemVisitor.dll
+C:\Users\santiago_leyva\Documents\GitHub\.NET-Home-Tasks\Home Task 3\Task1\Task1_FileSystemVisitor\bin\Debug\net8.0\Task1_FileSystemVisitor.pdb
+C:\Users\santiago_leyva\Documents\GitHub\.NET-Home-Tasks\Home Task 3\Task1\Task1_FileSystemVisitor\obj\Debug\net8.0\Task1_FileSystemVisitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santiago_leyva\Documents\GitHub\.NET-Home-Tasks\Home Task 3\Task1\Task1_FileSystemVisitor\obj\Debug\net8.0\Task1_FileSystemVisitor.AssemblyInfoInputs.cache
+C:\Users\santiago_leyva\Documents\GitHub\.NET-Home-Tasks\Home Task 3\Task1\Task1_FileSystemVisitor\obj\Debug\net8.0\Task1_FileSystemVisitor.AssemblyInfo.cs
+C:\Users\santiago_leyva\Documents\GitHub\.NET-Home-Tasks\Home Task 3\Task1\Task1_FileSystemVisitor\obj\Debug\net8.0\Task1_FileSystemVisitor.csproj.CoreCompileInputs.cache
+C:\Users\santiago_leyva\Documents\GitHub\.NET-Home-Tasks\Home Task 3\Task1\Task1_FileSystemVisitor\obj\Debug\net8.0\Task1_FileSystemVisitor.sourcelink.json
+C:\Users\santiago_leyva\Documents\GitHub\.NET-Home-Tasks\Home Task 3\Task1\Task1_FileSystemVisitor\obj\Debug\net8.0\Task1_FileSystemVisitor.dll
+C:\Users\santiago_leyva\Documents\GitHub\.NET-Home-Tasks\Home Task 3\Task1\Task1_FileSystemVisitor\obj\Debug\net8.0\refint\Task1_FileSystemVisitor.dll
+C:\Users\santiago_leyva\Documents\GitHub\.NET-Home-Tasks\Home Task 3\Task1\Task1_FileSystemVisitor\obj\Debug\net8.0\Task1_FileSystemVisitor.pdb
+C:\Users\santiago_leyva\Documents\GitHub\.NET-Home-Tasks\Home Task 3\Task1\Task1_FileSystemVisitor\obj\Debug\net8.0\Task1_FileSystemVisitor.genruntimeconfig.cache
+C:\Users\santiago_leyva\Documents\GitHub\.NET-Home-Tasks\Home Task 3\Task1\Task1_FileSystemVisitor\obj\Debug\net8.0\ref\Task1_FileSystemVisitor.dll

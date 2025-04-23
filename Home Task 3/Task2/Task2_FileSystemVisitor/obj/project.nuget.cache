@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qRql/DEFInM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\santiago_leyva\\Documents\\GitHub\\.NET-Home-Tasks\\Home Task 3\\Task2\\Task2_FileSystemVisitor\\Task2_FileSystemVisitor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\santiago_leyva\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.203\\microsoft.net.sdk.compilers.toolset.9.0.203.nupkg.sha512"
+  ],
+  "logs": []
+}
