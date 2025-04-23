@@ -1,7 +1,6 @@
 using Task1_FileSystemVisitorApp;
 using Moq;
 using System.IO.Abstractions;
-using System.IO.Abstractions.TestingHelpers;
 
 namespace Task1_UnitTests
 {
@@ -31,6 +30,20 @@ namespace Task1_UnitTests
                 { "/mock/start/dir2", new List<string>() },
                 { "/mock/start/dir2/subdir", new List<string> { "/mock/start/dir2/subdir/fileB.pdf", "/mock/start/dir2/subdir/fileC.pdf" } },
             };
+
+            // Mock Directory.Exists to always return true for predefined folders
+            mockFileSystem
+                .Setup(fs => fs.Directory.Exists(It.IsAny<string>()))
+                .Returns((string folder) => directories.ContainsKey(folder) || files.ContainsKey(folder));
+
+            // Mock Directory.GetDirectories to return subdirectories for a given directory
+            mockFileSystem
+                .Setup(fs => fs.Directory.GetDirectories(It.IsAny<string>()))
+                .Returns((string folder) => directories.ContainsKey(folder) ? directories[folder].ToArray() : Array.Empty<string>());
+
+            // Mock Directory.GetFiles to return files for a given directory
+            mockFileSystem.Setup(fs => fs.Directory.GetFiles(It.IsAny<string>()))
+                .Returns((string folder) => files.ContainsKey(folder) ? files[folder].ToArray() : Array.Empty<string>());
         }
 
         [Fact]
@@ -38,21 +51,6 @@ namespace Task1_UnitTests
         {
             // Arrange
             var startFolder = "/mock/start";
-
-            // Mock IFileSystem.Directory.GetDirectories
-            mockFileSystem
-                .Setup(fs => fs.Directory.GetDirectories(It.IsAny<string>()))
-                .Returns((string folder) => directories.ContainsKey(folder) ? directories[folder].ToArray() : Array.Empty<string>());
-
-            // Mock IFileSystem.Directory.GetFiles
-            mockFileSystem
-                .Setup(fs => fs.Directory.GetFiles(It.IsAny<string>()))
-                .Returns((string folder) => files.ContainsKey(folder) ? files[folder].ToArray() : Array.Empty<string>());
-
-            // Mock IFileSystem.Directory.Exists
-            mockFileSystem
-                .Setup(fs => fs.Directory.Exists(It.IsAny<string>()))
-                .Returns((string folder) => directories.ContainsKey(folder) || files.ContainsKey(folder));
 
             // System under test: FileSystemVisitor
             var visitor = new FileSystemVisitor(startFolder, mockFileSystem.Object);
@@ -83,24 +81,6 @@ namespace Task1_UnitTests
             // Arrange
             var startFolder = "/mock/start";
 
-            // Mock the IFileSystem dependency
-            var mockFileSystem = new Mock<IFileSystem>();
-
-            // Mock IFileSystem.Directory.GetDirectories
-            mockFileSystem
-                .Setup(fs => fs.Directory.GetDirectories(It.IsAny<string>()))
-                .Returns((string folder) => directories.ContainsKey(folder) ? directories[folder].ToArray() : Array.Empty<string>());
-
-            // Mock IFileSystem.Directory.GetFiles
-            mockFileSystem
-                .Setup(fs => fs.Directory.GetFiles(It.IsAny<string>()))
-                .Returns((string folder) => files.ContainsKey(folder) ? files[folder].ToArray() : Array.Empty<string>());
-
-            // Mock IFileSystem.Directory.Exists
-            mockFileSystem
-                .Setup(fs => fs.Directory.Exists(It.IsAny<string>()))
-                .Returns((string folder) => directories.ContainsKey(folder) || files.ContainsKey(folder));
-
             // Filter: Include only ".pdf" files
             Func<string, bool> fileFilter = filePath => filePath.EndsWith("pdf");
 
@@ -127,24 +107,6 @@ namespace Task1_UnitTests
             // Arrange
             var startFolder = "/mock/start";
 
-            // Mock the IFileSystem dependency
-            var mockFileSystem = new Mock<IFileSystem>();
-
-            // Mock IFileSystem.Directory.GetDirectories
-            mockFileSystem
-                .Setup(fs => fs.Directory.GetDirectories(It.IsAny<string>()))
-                .Returns((string folder) => directories.ContainsKey(folder) ? directories[folder].ToArray() : Array.Empty<string>());
-
-            // Mock IFileSystem.Directory.GetFiles
-            mockFileSystem
-                .Setup(fs => fs.Directory.GetFiles(It.IsAny<string>()))
-                .Returns((string folder) => files.ContainsKey(folder) ? files[folder].ToArray() : Array.Empty<string>());
-
-            // Mock IFileSystem.Directory.Exists
-            mockFileSystem
-                .Setup(fs => fs.Directory.Exists(It.IsAny<string>()))
-                .Returns((string folder) => directories.ContainsKey(folder) || files.ContainsKey(folder));
-
             // Filter: Include only ".txt" files
             string filteredFolder = "dir2";
             Func<string, bool> folderFilter = filePath => filePath.EndsWith(filteredFolder);
@@ -170,24 +132,6 @@ namespace Task1_UnitTests
             // Arrange
             var startFolder = "/mock/start";
 
-            // Mock the IFileSystem dependency
-            var mockFileSystem = new Mock<IFileSystem>();
-
-            // Mock IFileSystem.Directory.GetDirectories
-            mockFileSystem
-                .Setup(fs => fs.Directory.GetDirectories(It.IsAny<string>()))
-                .Returns((string folder) => directories.ContainsKey(folder) ? directories[folder].ToArray() : Array.Empty<string>());
-
-            // Mock IFileSystem.Directory.GetFiles
-            mockFileSystem
-                .Setup(fs => fs.Directory.GetFiles(It.IsAny<string>()))
-                .Returns((string folder) => files.ContainsKey(folder) ? files[folder].ToArray() : Array.Empty<string>());
-
-            // Mock IFileSystem.Directory.Exists
-            mockFileSystem
-                .Setup(fs => fs.Directory.Exists(It.IsAny<string>()))
-                .Returns((string folder) => directories.ContainsKey(folder) || files.ContainsKey(folder));
-
             string filteredFile = "exe";
             Func<string, bool> fileFilter = filePath => filePath.EndsWith(filteredFile);
 
@@ -206,24 +150,6 @@ namespace Task1_UnitTests
         {
             // Arrange
             var startFolder = "/mock/start";
-
-            // Mock the IFileSystem dependency
-            var mockFileSystem = new Mock<IFileSystem>();
-
-            // Mock IFileSystem.Directory.GetDirectories
-            mockFileSystem
-                .Setup(fs => fs.Directory.GetDirectories(It.IsAny<string>()))
-                .Returns((string folder) => directories.ContainsKey(folder) ? directories[folder].ToArray() : Array.Empty<string>());
-
-            // Mock IFileSystem.Directory.GetFiles
-            mockFileSystem
-                .Setup(fs => fs.Directory.GetFiles(It.IsAny<string>()))
-                .Returns((string folder) => files.ContainsKey(folder) ? files[folder].ToArray() : Array.Empty<string>());
-
-            // Mock IFileSystem.Directory.Exists
-            mockFileSystem
-                .Setup(fs => fs.Directory.Exists(It.IsAny<string>()))
-                .Returns((string folder) => directories.ContainsKey(folder) || files.ContainsKey(folder));
 
             // Filter: Include only ".txt" files
             string filteredFolder = "NewFolder";
